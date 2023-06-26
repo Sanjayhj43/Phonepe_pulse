@@ -92,7 +92,8 @@ To insert the datadrame into SQL first I've created a new database and tables us
 
 Creating the connection between python and mysql
 
-# To find out Nan values are in which column
+To find Nan values in columns
+
 columns_with_nan = df_top_user.columns[df_top_user.isna().any()].tolist()
 
 print("Columns with NaN values:")
